@@ -1,0 +1,18 @@
+.infoItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f9f9f9;
+}
+
+.hiddenOnCollapse {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .hiddenOnCollapse {
+    display: none;
+  }
+}

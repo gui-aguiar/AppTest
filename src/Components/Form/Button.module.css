@@ -1,0 +1,21 @@
+.button {
+    padding: 8px 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .enabled {
+    background-color: var(--green-teal);
+    border: solid 1px var(--green-teal);
+  }
+  
+  .disabled {    
+    border: solid 1px var(--pinkish-grey);
+    background-color: var(--pinkish-grey);
+    cursor: not-allowed; 
+  }
+  

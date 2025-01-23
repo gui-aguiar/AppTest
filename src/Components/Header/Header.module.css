@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 1em;
+    height: 50px;
+    max-width: 100%;
+    box-shadow: 0 2px 0 0 var(--gainsboro);
+    background-color: #fff;
+}

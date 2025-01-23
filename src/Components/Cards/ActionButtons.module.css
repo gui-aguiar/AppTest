@@ -1,0 +1,10 @@
+.actionButtons {
+    display: flex;
+    flex-flow: column;
+    place-items: center;
+    gap: .5em 0em;
+}
+
+.actionButton {
+    display: flex;
+}
