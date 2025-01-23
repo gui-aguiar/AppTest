@@ -23,7 +23,7 @@ const ComputerInfo = ({ data }) => {
           key={key}
           label={key}
           value={value}
-          hideOnCollapse={false}
+          hideOnCollapse={!visibleOnCollapse.includes(key)}
         />
       ))}
     </div>

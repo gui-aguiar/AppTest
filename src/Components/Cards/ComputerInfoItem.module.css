@@ -8,10 +8,10 @@
 }
 
 .hiddenOnCollapse {
-  display: none;
+  display: flex;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 100px) {
   .hiddenOnCollapse {
     display: none;
   }

@@ -4,7 +4,7 @@
   gap: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 100px) {
   .computerInfo {
     grid-template-columns: 1fr;
   }
