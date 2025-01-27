@@ -1,11 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import * as Icons from '@fortawesome/free-solid-svg-icons'; // Importa todos os ícones
+import * as Icons from '@fortawesome/free-solid-svg-icons';
+import styles from "./ActionButtons.module.css";
 
-const ActionButton = ({ children, iconName, ...props }) => {
+const ActionButton = ({ children, iconName, onClick, ...props }) => {
   const icon = Icons[iconName];
   return (
-    <button {...props}>
-      <FontAwesomeIcon icon={icon} /> {children}
+    <button className={styles.actionButton} {...props}
+      onClick={onClick}>
+      <FontAwesomeIcon icon={icon}/> {children}
     </button>
   );
 };

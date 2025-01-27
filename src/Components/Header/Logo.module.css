@@ -1,13 +1,13 @@
 .SWStarter {
-    width: auto;
-    height: 22px;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: var(--green-teal);
-    max-width: 100%;
-  }
+  width: auto;
+  height: 22px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--green-teal);
+  max-width: 100%;
+}

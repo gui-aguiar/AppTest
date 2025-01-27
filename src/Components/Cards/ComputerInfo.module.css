@@ -1,10 +1,11 @@
 .computerInfo {
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  flex: 1;
 }
 
-@media (max-width: 100px) {
+@media (max-width: 700px) {
   .computerInfo {
     grid-template-columns: 1fr;
   }

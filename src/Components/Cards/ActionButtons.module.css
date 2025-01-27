@@ -1,10 +1,17 @@
 .actionButtons {
+    height: 100%;
     display: flex;
-    flex-flow: column;
-    place-items: center;
-    gap: .5em 0em;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .actionButton {
-    display: flex;
+    padding: 10px 10px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 15px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--green-teal);
 }

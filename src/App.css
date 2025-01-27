@@ -7,6 +7,8 @@
     --emerald: #089954;
     --azure: #0094ff;
     --warm-grey-75: rgba(132, 132, 132, 0.75);
+    --soft-black: rgb(14, 14, 14);
+    --ruby: rgb(170, 21, 21);
 }
 
 .Text-Style {

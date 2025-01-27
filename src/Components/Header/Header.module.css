@@ -1,10 +1,14 @@
 .header {
+    position: fixed; /* Fixa o header no topo da tela */
+    top: 0; /* Define que ele fica no topo */
+    left: 0; /* Faz com que o header ocupe o canto esquerdo */
+    width: 100%; /* Garante que o header ocupe toda a largura da tela */
+    z-index: 1000; /* Garante que o header fique sobre outros elementos da página */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0em 1em;
     height: 50px;
-    max-width: 100%;
     box-shadow: 0 2px 0 0 var(--gainsboro);
     background-color: #fff;
 }

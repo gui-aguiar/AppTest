@@ -1,17 +1,29 @@
 .infoItem {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   padding: 5px;
-  border: 1px solid #ddd;
   border-radius: 4px;
-  background: #f9f9f9;
+  overflow: auto;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.value {
+  font-size: 14px;
+  overflow: hidden;
 }
 
 .hiddenOnCollapse {
   display: flex;
 }
 
-@media (max-width: 100px) {
+@media (max-width: 700px) {
   .hiddenOnCollapse {
     display: none;
   }

@@ -1,0 +1,96 @@
+.modal {
+  max-width: 70%;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  outline: none;
+}
+
+.title {
+  width: auto;
+  height: 22px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--green-teal);
+  max-width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.description {
+  width: auto;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--soft-black);
+  max-width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.customOverlay {
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.editModalForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.editModalInnerDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.confirmActionModalItems {
+
+}
+
+.button {
+  width: 25%;
+  height: 40px;
+  min-width: 100px;
+}
+
+.buttonLabel {
+  width: auto;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--soft-black);
+  max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .editModalInnerDiv {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
